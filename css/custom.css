@@ -1,0 +1,355 @@
+@font-face {
+	font-family: 'OpenSansRegular';
+	src: url('../fonts/OpenSansRegular.eot');
+	src: url('../fonts/OpenSansRegular.eot') format('embedded-opentype'), url('../fonts/OpenSansRegular.woff2') format('woff2'), url('../fonts/OpenSansRegular.woff') format('woff'), url('../fonts/OpenSansRegular.ttf') format('truetype'), url('../fonts/OpenSansRegular.svg#OpenSansRegular') format('svg');
+}
+@font-face {
+	font-family: 'DroidSans';
+	src: url('../fonts/DroidSans.eot');
+	src: url('../fonts/DroidSans.eot') format('embedded-opentype'), url('../fonts/DroidSans.woff2') format('woff2'), url('../fonts/DroidSans.woff') format('woff'), url('../fonts/DroidSans.ttf') format('truetype'), url('../fonts/DroidSans.svg#DroidSans') format('svg');
+}
+body {
+	background: #f5f6f8;
+	font-family: "Droid Sans",sans-serif;
+}
+.top_Bar {
+	background: #000;
+	padding: 7px 0;
+}
+.logo img {
+	width: 285px;
+}
+.consulting-bg {
+	background: #fefefe;
+	border: 1px solid #eaefee;
+	border-radius: 5px;
+	margin: 60px 0 30px 0;
+	padding: 30px;
+	overflow: hidden;
+}
+.crypto-image img {
+	width: 100%;
+}
+.intro-image img {
+	width: 100%;
+	margin: 13px 0 0 0;
+}
+.introducing {
+	margin: 25px 0 0 0;
+}
+.rht-introducing h4 {
+	font-family: 'DroidSans';
+	font-weight: bold;
+	font-size: 21px;
+}
+.rht-introducing p {
+	font-family: 'DroidSans';
+	font-weight: normal;
+	font-size: 15px;
+	color: #2e2e2e;
+	line-height: 24px;
+}
+.consulting-rows {
+	margin-top: 50px;
+}
+.perfectly-text {
+	text-align: center;
+	margin: 160px 0 0 0;
+}
+.perfectly-text h3 {
+	font-family: 'DroidSans';
+	font-weight: bold;
+	font-size: 24px;
+}
+.perfectly-text p {
+	font-family: 'DroidSans';
+	font-weight: normal;
+	font-size: 16px;
+	color: #2e2e2e;
+	line-height: 24px;
+	margin: 18px 0 50px 0;
+}
+.proces-icons {
+	text-align: center;
+}
+.proces-icons img {
+	width: 100%;
+}
+.right-proven h3 {
+	font-family: 'DroidSans';
+	font-weight: bold;
+	font-size: 17px;
+	margin: 10px 0 12px 0;
+	color: #000;
+}
+.right-proven p {
+	font-family: 'DroidSans';
+	font-weight: normal;
+	font-size: 14px;
+	color: #474646;
+	line-height: 23px;
+	margin: 11px 0 0 0;
+}
+.sastisfation-text h3 {
+	font-family: 'DroidSans';
+	font-weight: bold;
+	font-size: 24px;
+}
+.sastisfation-text p {
+	font-family: 'DroidSans';
+	font-weight: normal;
+	font-size: 16px;
+	color: #2e2e2e;
+	line-height: 24px;
+}
+.sastisfation-image {
+	text-align: center;
+}
+.sastisfation-image img {
+	width: 75%;
+}
+.rht-introducing ul {
+	margin: 0;
+	padding: 0;
+}
+.rht-introducing ul li {
+	list-style: none;
+	font-family: 'DroidSans';
+	font-weight: normal;
+	font-size: 16px;
+	color: #2e2e2e;
+	line-height: 35px;
+}
+.inners-box {
+	margin: 0 0 50px 0;
+	overflow: hidden;
+}
+.upper-text {
+	text-align: center;
+}
+.upper-text h3 {
+	font-family: 'DroidSans';
+	font-weight: bold;
+	font-size: 32px;
+	margin-bottom: 40px;
+	line-height: 40px;
+}
+.ftr_logo img {
+	width: 285px;
+}
+.main_prt {
+	border-bottom: 1px solid #4a5777;
+	padding: 4px 0 19px 0;
+	margin: 10px 0 0 0;
+}
+.main_prt h2 {
+	font-family: 'SourceSansProRegular';
+	font-weight: bold;
+	font-size: 15px;
+	padding: 0 0 3px 0;
+	margin: 0;
+	color: #b7cad9;
+	border-bottom: 0;
+	text-transform: lowercase;
+}
+.satisfication-row {
+	margin: 20px 0;
+}
+.program-contents ul {
+	margin: 17px 0;
+	padding: 0 0 0 27px;
+}
+.program-contents ul li {
+	font-family: 'DroidSans';
+	font-weight: normal;
+	font-size: 15px;
+	color: #848484;
+	line-height: 26px;
+}
+.program-pricing-container {
+	text-align: center;
+}
+.program-pricing {
+	color: #00c042;
+	margin-bottom: 4px;
+	font-family: 'DroidSans';
+}
+.current-price {
+	display: inline-block;
+	margin-right: 5px;
+}
+.current-price {
+	font-size: 28px;
+	font-weight: 700;
+	font-family: 'DroidSans';
+}
+.everyday-price {
+	color: #cc4b37;
+	text-decoration: line-through;
+	font-family: 'DroidSans';
+	font-size: 15px;
+}
+.call-to-action {
+	text-align: center;
+	margin: 25px 0 26px 0;
+	padding: 0 29px;
+}
+.call-to-action .button {
+	box-shadow: inset 0 1px 0 rgba(255,255,255,.2);
+	border: 1px solid rgba(0,0,0,.2);
+	background: #17aa1c;
+	font-family: "Droid Sans", sans-serif;
+	font-weight: 700;
+	padding: 15px 20px;
+	font-size: 14px;
+	color: #fff;
+	border-radius: 4px;
+	text-decoration: none;
+}
+.chat-link {
+	display: inline-block;
+	font-size: 13px;
+	text-align: center;
+	line-height: inherit;
+	color: #138acb;
+	text-decoration: none;
+	cursor: pointer;
+	margin: 23px 0 0 0;
+	font-family: 'DroidSans';
+}
+.accordion.faq .accordion-title {
+    text-decoration: none;
+}
+.chat-link i{
+	margin-right: 8px; 
+}
+.right-parts-bg {
+	background: #fefefe;
+	border: 1px solid #eaefee;
+	border-radius: 5px;
+	margin: 60px 0 30px 0;
+	overflow: hidden;
+}
+.right-logo-bg {
+	background: #000;
+	text-align: center;
+	padding: 0 0 13px 0;
+}
+.logo-v img {
+	width: 59px;
+	margin: 19px 0 0 0;
+}
+.logo-rts img {
+    width: 85%;
+    margin: 19px 0 0 0;
+}
+.perfectly-answer{
+    margin: 50px 0 0 0 !important;
+}
+.main_ftr p {
+	font-size: 12px;
+font-weight: normal;
+font-family: 'DroidSans';
+color: #8a8a8a;
+padding: 11px 0 0 0;
+
+text-align: right;
+}
+.main_ftr {
+	background: #000;
+	padding: 15px 0 5px;
+}
+.ftr_txt p {
+	font-size: 13px;
+	color: #999;
+	font-family: 'DroidSans';
+}
+.ftr_lft p {
+	font-size: 12px;
+	font-family: 'DroidSans';
+	margin: 20px 0 0;
+	line-height: 23px;
+	color: #8a8a8a;
+}
+.ftr_icon_list {
+	margin: 0;
+	padding: 0;
+}
+.ftr_icon_list li {
+	list-style: none;
+	display: inline-block;
+	color: #8a8a8a;
+	margin: 0 3px;
+}
+.ftr_icon_list li a {
+	font-size: 11px;
+	padding: 0 0 0 0;
+	text-decoration: none;
+	font-family: 'DroidSans';
+	margin: 20px 0 0;
+	line-height: 19px;
+	color: #8a8a8a;
+}
+.ftr_icon_list li a:hover {
+	color: #fff;
+}
+@media only screen and (min-width :100px) and (max-width :480px) {
+.logo{
+	text-align:center;
+}
+.consulting-part{
+	padding:0;
+}
+.consulting-part .col-xs-12{
+	padding:0;
+}
+.consulting-bg {
+    margin: 30px 0 30px 0;
+    padding: 10px;
+}
+.upper-text h3 {
+    font-size: 16px;
+    margin-bottom: 20px;
+    line-height: 24px;
+}
+.rht-introducing{
+	text-align:center;
+}
+.rht-introducing h4{
+	font-size: 16px;
+	margin-bottom: 20px;
+	line-height: 24px;
+	margin-top: 30px;
+}
+.perfectly-text {
+    margin: 25px 0 0 0;
+}
+.perfectly-text h3 {
+    font-size: 17px;
+}
+.proces-icons img {
+    width: 32%;
+}
+.right-proven{
+	text-align:center;
+}
+.rht-introducing ul li i{
+	display:none;
+}
+.sastisfation-text{
+	text-align:center;
+}
+.sastisfation-text h3 {
+    font-size: 18px;
+}
+
+
+}
+@media only screen and (min-width :481px) and (max-width :600px) {
+}
+@media only screen and (min-width :601px) and (max-width :767px) {
+}
+@media only screen and (min-width :768px) and (max-width :1023px) {
+}
+@media only screen and (min-width :1024px) and (max-width :1100px) {
+}
